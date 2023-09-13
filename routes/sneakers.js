@@ -37,11 +37,11 @@ router.post('/', async (req, res) => {
 });
 
 // delete sneaker
-router.delete('/:id', async (req, res) => {
+router.delete('/del/:id', async (req, res) => {
+  let itemId = req.params.id;
   try {
-    const sneaker = await Sneaker.findById(req.params.id);
-    await sneaker.delete();
-    res.status(200).json(`Sneaker with the id ${id}, successfully deleted`);
+    const sneaker = await Sneaker.findOneAndDelete(itemId);
+    res.status(200).json(`Sneaker with the id ${itemId}, successfully deleted`);
   } catch (err) {
     res.status(500).json(err);
   }
@@ -51,7 +51,8 @@ router.delete('/:id', async (req, res) => {
 
 router.put('/:id', async (req, res) => {
   try {
-    const updatedSneaker = await Sneaker.findByIdAndUpdate(
+    const sneaker = await Sneaker.findById(req.params.id);
+    const updatedSneaker = await sneaker.findByIdAndUpdate(
       req.params.id,
       {
         $set: req.body,
