@@ -20,6 +20,8 @@ app.get('*', (req, res) => {
   res.json('404 - not found');
 });
 
+// define routes
+
 app.listen(PORT, () => {
   console.log(`server is running on port ${PORT}`);
 });
