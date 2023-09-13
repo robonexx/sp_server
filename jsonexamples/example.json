@@ -1,6 +1,8 @@
 {
     "name": "Nike Air Force 1 '07",
     "slug": "nike-air-force-1-07",
+    "thumbnail": "nike.png",
+    "image": "img location",
     "category": "Basketball",
     "brand": "Nike",
     "price": 1399,
