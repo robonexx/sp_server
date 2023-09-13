@@ -1,0 +1,34 @@
+{
+    "name": {
+      "type": "String",
+      "required": true
+    },
+    "brand": {
+      "type": "String",
+      "required": true
+    },
+    "price": {
+      "type": "Number",
+      "required": true
+    },
+    "description": "String",
+    "benefits": [
+      "String"
+    ],
+    "productDetails": {
+      "foamMidsole": "Boolean",
+      "perforationsOnToe": "Boolean",
+      "rubberSole": "Boolean",
+      "colorShown": "String",
+      "style": "String"
+    },
+    "origins": "String",
+    "storageAmount": "Number",
+    "availability": "String",
+    "product_id": "String",
+    "date": {
+      "type": "Date",
+      "default": "Date.now"
+    }
+  }
+  
