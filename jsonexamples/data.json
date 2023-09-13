@@ -1,0 +1,138 @@
+[{
+    "_id": { "$oid": "60c7c3efc144c3000135f1a7"},
+    "name": "Nike Air Force 1 '07",
+    "slug": "nike-air-force-1-07",
+    "thumbnail": "nike.png",
+    "image": "img location",
+    "brand": "Nike", 
+    "category": "Basketball",
+    "price": 1399,
+    "description": "LEGENDARY STYLE REFINED. The radiance lives on in the Nike Air Force 1 '07...",
+    "benefits": [
+      "The stitched overlays on the upper add heritage style, durability, and support.",
+      "Originally designed for performance hoops, the Nike Air cushioning adds lightweight, all-day comfort.",
+      "The low-cut silhouette adds a clean, streamlined look.",
+      "The padded collar feels soft and comfortable."
+    ],
+    "productDetails": {
+      "foamMidsole": true,
+      "perforationsOnToe": true,
+      "rubberSole": true,
+      "colorShown": "White/White",
+      "style": "CW2288-111"
+    },
+    "origins": "Debuting in 1982, the AF-1 was the first basketball shoe to house Nike Air...",
+    "storageAmount": 100, 
+    "availability": "In Stock",
+    "product_id": "AF1-07-WHT",
+    "date": "2023-09-13T10:30:00.000Z" 
+  },
+  {
+    "_id": { "$oid": "60c7c3efc144c3000135f1a6"},
+    "name": "Adidas Ultra Boost",
+    "category": "Running",
+    "thumbnail": "adidas.png",
+    "image": "img location",
+    "slug": "adidas-ultra-boost",
+    "brand": "Adidas",
+    "price": 1699,
+    "description": "Experience endless energy return in every stride with the Adidas Ultra Boost...",
+    "benefits": [
+      "Primeknit upper for a snug, supportive fit.",
+      "Responsive Boost cushioning for ultimate comfort.",
+      "Stretchweb outsole for a smooth ride.",
+      "Breathable and lightweight design."
+    ],
+    "productDetails": {
+      "foamMidsole": false,
+      "perforationsOnToe": true,
+      "rubberSole": true,
+      "colorShown": "Black/White",
+      "style": "BB6179"
+    },
+    "origins": "Designed for runners seeking exceptional comfort and performance.",
+    "storageAmount": 150,
+    "availability": "In Stock",
+    "product_id": "UB-BLK-WHT",
+    "date": "2023-09-15T11:45:00.000Z"
+  },
+  {
+    "_id": { "$oid": "60c7c3efc144c3000135f1a5"},
+    "name": "Puma RS-X",
+    "category": "Running",
+    "thumbnail": "puma.png",
+    "image": "img location",
+    "slug": "puma-rs-x",
+    "brand": "Puma",
+    "price": 1299,
+    "description": "The Puma RS-X is a bold and futuristic sneaker that combines retro design elements with modern style...",
+    "benefits": [
+      "Chunky silhouette for a trendy look.",
+      "RS cushioning for superior comfort and support.",
+      "Durable rubber outsole for excellent traction.",
+      "Mesh and leather upper for breathability and style."
+    ],
+    "productDetails": {
+      "foamMidsole": true,
+      "perforationsOnToe": false,
+      "rubberSole": true,
+      "colorShown": "Red/Black",
+      "style": "369579-05"
+    },
+    "origins": "Inspired by Puma's '80s running shoes, updated for today's fashion-forward crowd.",
+    "storageAmount": 200,
+    "availability": "In Stock",
+    "product_id": "RSX-RED-BLK",
+    "date": "2023-09-14T09:15:00.000Z"
+  },
+  {
+    "_id": { "$oid": "60c7c3efc144c3000135f1a8"},
+    "name": "New Balance 990",
+    "brand": "New Balance",
+    "price": 1599,
+    "description": "The New Balance 990 is a classic running shoe known for its comfort, stability, and timeless style...",
+    "benefits": [
+      "Premium pigskin and mesh upper for durability and breathability.",
+      "ENCAP midsole technology for superior cushioning and support.",
+      "Blown rubber outsole for added traction.",
+      "Classic design suitable for everyday wear."
+    ],
+    "productDetails": {
+      "foamMidsole": true,
+      "perforationsOnToe": false,
+      "rubberSole": true,
+      "colorShown": "Grey/White",
+      "style": "M990GL5"
+    },
+    "origins": "First introduced in 1982, the 990 has remained a favorite among runners and sneaker enthusiasts.",
+    "storageAmount": 180,
+    "availability": "In Stock",
+    "product_id": "NB-990-GRY",
+    "date": "2023-09-16T14:20:00.000Z"
+  },
+  {
+    "_id": { "$oid": "60c7c3efc144c3000135f1a9"},
+    "name": "Reebok Classic Leather",
+    "brand": "Reebok",
+    "price": 999,
+    "description": "The Reebok Classic Leather is an iconic sneaker known for its timeless style and comfort...",
+    "benefits": [
+      "Soft garment leather upper for a premium look and feel.",
+      "Die-cut EVA midsole for lightweight cushioning.",
+      "High-abrasion rubber outsole for durability and traction.",
+      "Low-cut design for freedom of motion and a sleek look."
+    ],
+    "productDetails": {
+      "foamMidsole": false,
+      "perforationsOnToe": false,
+      "rubberSole": true,
+      "colorShown": "White/Gum",
+      "style": "2214"
+    },
+    "origins": "Originally introduced in the 1980s, the Classic Leather remains a classic choice for sneaker enthusiasts.",
+    "storageAmount": 220,
+    "availability": "In Stock",
+    "product_id": "RBK-CL-WHT",
+    "date": "2023-09-14T16:50:00.000Z"
+  } 
+]
