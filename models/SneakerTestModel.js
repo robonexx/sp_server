@@ -2,9 +2,9 @@ const mongoose = require('mongoose');
 
 const sneakerSchema = new mongoose.Schema({
   name: { type: String, required: true },
-  slug: { type: String, required: true },
-  brand: { type: String, required: true },
-  price: { type: Number, required: true },
+  slug: { type: String, required: false },
+  brand: { type: String, required: false },
+  price: { type: Number, required: false },
   description: { type: String, required: true },
   benefits: [String],
   productDetails: {
@@ -15,9 +15,9 @@ const sneakerSchema = new mongoose.Schema({
     style: { type: String, required: false },
   },
   origins: { type: String },
-  storageAmount: { type: Number, required: true },
-  availability: { type: String, required: true },
-  product_id: { type: String, required: true },
+  storageAmount: { type: Number, required: false },
+  availability: { type: String, required: false },
+  product_id: { type: String, required: false },
   date: { type: Date, default: Date.now },
 });
 
